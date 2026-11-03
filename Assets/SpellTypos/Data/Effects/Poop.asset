@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212da37ccd06abc47a214183871c59fb, type: 3}
+  m_Name: Poop
+  m_EditorClassIdentifier: Assembly-CSharp::PoopEffect
+  _label: Poop
+  _description: Adds poison to the target for every 2 scars it has (left by Cut).
+    Power = poison stacks per 2 scars. Also cast as "shit".
+  _scarsPerStack: 2

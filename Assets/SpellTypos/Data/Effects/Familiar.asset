@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a995a60345f813e4d8604e224398e529, type: 3}
+  m_Name: Familiar
+  m_EditorClassIdentifier: Assembly-CSharp::FamiliarEffect
+  _label: Familiar
+  _description: 'Summons a pet (power = its HP) that takes hits for you. Mix it with
+    another spell ("familiar fire") and the pet also casts that spell on the enemy
+    once every turn: fire burns, ice freezes, water soaks, poison, fear, rainbow
+    gives everything. Also cast as "pet".'

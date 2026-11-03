@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ed588b78ea5eeb4ab52bf538821894c, type: 3}
+  m_Name: Sacrifice
+  m_EditorClassIdentifier: Assembly-CSharp::SacrificeEffect
+  _label: Sacrifice
+  _description: 'Give something up for double damage for the rest of the room (it
+    stacks). After casting, type what to give: hp (power x your current bonus in
+    HP, it can kill you), familiar, or a spell word (sealed for the rest of the run).'
+  _hpCostScalesWithBonus: 1

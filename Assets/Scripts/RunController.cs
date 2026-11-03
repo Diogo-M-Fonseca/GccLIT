@@ -24,6 +24,7 @@ internal sealed class RunController : MonoBehaviour
         _index = 0;
         _player.ResetFull(_playerMaxHp);
         _hud.HideBanner();
+        _battle.ResetUses();
         _battle.Begin(_rooms[_index]);
     }
 
@@ -35,15 +36,20 @@ internal sealed class RunController : MonoBehaviour
     private IEnumerator AfterWin()
     {
         _index++;
-        if (_index >= _rooms.Count)
+        bool pyrrhic = _battle.PyrrhicWin;
+        if (_index >= _rooms.Count || _battle.WinsRun)
         {
-            _hud.ShowBanner("You made it through!\nEverything was lost in translation, but you won.");
+            _hud.ShowBanner(_battle.WinsRun
+                ? "Love conquers all!\nOne spell won the whole game."
+                : pyrrhic
+                    ? "You win, but at what cost...\nThe dust settles over the ruins."
+                    : "You made it through!\nEverything was lost in translation, but you won.");
             yield return new WaitForSeconds(_bannerTime * 1.5f);
             StartRun();
             yield break;
         }
 
-        _hud.ShowBanner("Room cleared!");
+        _hud.ShowBanner(pyrrhic ? "You win, but at what cost...\nYou crawl out of the rubble." : "Room cleared!");
         yield return new WaitForSeconds(_bannerTime);
         _hud.HideBanner();
         _player.ClearStatuses();
@@ -53,7 +59,9 @@ internal sealed class RunController : MonoBehaviour
 
     private IEnumerator AfterLoss()
     {
-        _hud.ShowBanner("Your last spell was lost in translation...");
+        _hud.ShowBanner(_battle.SacrificeDeath
+            ? "You gave your last drop of life to the ritual...\nThe power was yours, but there was no one left to wield it."
+            : "Your last spell was lost in translation...");
         yield return new WaitForSeconds(_bannerTime);
         StartRun();
     }

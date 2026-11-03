@@ -1,0 +1,681 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0776a42da53144843aa33e1c66cfa88e, type: 3}
+  m_Name: SpellBook
+  m_EditorClassIdentifier: Assembly-CSharp::SpellBook
+  _entries:
+  - _word: spark
+    _effect: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _power: 5
+    _vfx: 4
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 31ecacc8267d43a4c92a8a800b8bfff2, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: bolt
+    _effect: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _power: 8
+    _vfx: 2
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: d52f79ffdd2c5b14c8902610ee20d9c4, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: blot
+    _effect: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _power: 1
+    _vfx: 0
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 31ecacc8267d43a4c92a8a800b8bfff2, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: fear
+    _effect: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _power: 2
+    _vfx: 5
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 7610f09e2dc619b4286541919b010b2f, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: fury
+    _effect: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _power: 6
+    _vfx: 0
+    _maxUses: 0
+    _sound: {fileID: 0}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: fire
+    _effect: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _power: 2
+    _vfx: 1
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 5cf0f3fa465c53848a098f797d7d2de5, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: heal
+    _effect: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _power: 6
+    _vfx: 3
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 51cb1bf507a29cc46b581d0f87debd01, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: shield
+    _effect: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _power: 5
+    _vfx: 0
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 0aecd81142962c045a91a84ece8ce363, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: fur
+    _effect: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _power: 1
+    _vfx: 0
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: e439bfaa759fec8409a74d8ea62675d8, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: wet
+    _effect: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _power: 1
+    _vfx: 6
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 28ca068afbda9a74ea036a0143ea1062, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: frost
+    _effect: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _power: 1
+    _vfx: 7
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 69df5d30f51e597479a8520a34ba4b2a, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: water
+    _effect: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _power: 1
+    _vfx: 6
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 28ca068afbda9a74ea036a0143ea1062, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: ice
+    _effect: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _power: 1
+    _vfx: 7
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 69df5d30f51e597479a8520a34ba4b2a, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: isis
+    _effect: {fileID: 11400000, guid: 3d43cefed5402de4890c16676a23e1be, type: 2}
+    _power: 1
+    _vfx: 8
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: d0c69bda5aff85446be3636c2b0f72fa, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: meteor
+    _effect: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _power: 4
+    _vfx: 9
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 1a09942e7c8c7b941b5e4fd6e9f356ed, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: cleanse
+    _effect: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _power: 1
+    _vfx: 3
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 8de6d3354c2d2494cbb6967e4ec6bcf6, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: explosion
+    _effect: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _power: 1
+    _vfx: 10
+    _maxUses: 2
+    _sound: {fileID: 8300000, guid: 8e89c9e8d8647234fa382d6a31c6fbe8, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: mirror
+    _effect: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _power: 1
+    _vfx: 11
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 12022f22fb6b18642a0d18a27e93b904, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: gamble
+    _effect: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _power: 25
+    _vfx: 12
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 450603fb38dfd054bb4ddfc1f6676bd6, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: cut
+    _effect: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _power: 1
+    _vfx: 13
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 756cff2c44693b64e96bc32e86df0002, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: salt
+    _effect: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _power: 2
+    _vfx: 14
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 0b9c6e3da8e2ab24e8fb4c2c40a3c1d5, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: shatter
+    _effect: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _power: 3
+    _vfx: 15
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: feca72c9e5237884b905bed0bea00e66, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: git
+    _effect: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _power: 1
+    _vfx: 16
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 147de248e3c58f2478d86eb891357252, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: rainbow
+    _effect: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _power: 1
+    _vfx: 17
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: a0083f6f8f718b2458f47490f9bfbc51, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: gay
+    _effect: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _power: 1
+    _vfx: 17
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: a0083f6f8f718b2458f47490f9bfbc51, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: fireball
+    _effect: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _power: 2
+    _vfx: 1
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 5cf0f3fa465c53848a098f797d7d2de5, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: fire ball
+    _effect: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _power: 2
+    _vfx: 1
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 5cf0f3fa465c53848a098f797d7d2de5, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: lightning
+    _effect: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _power: 8
+    _vfx: 2
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: d52f79ffdd2c5b14c8902610ee20d9c4, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: slice
+    _effect: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _power: 1
+    _vfx: 13
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 756cff2c44693b64e96bc32e86df0002, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: slash
+    _effect: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _power: 1
+    _vfx: 13
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 756cff2c44693b64e96bc32e86df0002, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: zap
+    _effect: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _power: 5
+    _vfx: 4
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 31ecacc8267d43a4c92a8a800b8bfff2, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: splash
+    _effect: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _power: 1
+    _vfx: 6
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 28ca068afbda9a74ea036a0143ea1062, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: scare
+    _effect: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _power: 2
+    _vfx: 5
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: 7610f09e2dc619b4286541919b010b2f, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: poison
+    _effect: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _power: 3
+    _vfx: 18
+    _maxUses: 0
+    _sound: {fileID: 0}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: poop
+    _effect: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _power: 1
+    _vfx: 19
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: e5db5b92fb822d648b725ccd46cd052b, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: shit
+    _effect: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _power: 1
+    _vfx: 19
+    _maxUses: 0
+    _sound: {fileID: 8300000, guid: e5db5b92fb822d648b725ccd46cd052b, type: 3}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: familiar
+    _effect: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _power: 4
+    _vfx: 20
+    _maxUses: 0
+    _sound: {fileID: 0}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: sacrifice
+    _effect: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _power: 5
+    _vfx: 21
+    _maxUses: 0
+    _sound: {fileID: 0}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  - _word: pet
+    _effect: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _power: 4
+    _vfx: 20
+    _maxUses: 0
+    _sound: {fileID: 0}
+    _soundVolume: 1
+    _soundPerHit: 0
+    _soundFit: 0
+    _soundImpactTime: 0
+    _reelStopSound: {fileID: 0}
+    _reelStopVolume: 1
+    _jackpotSound: {fileID: 0}
+    _jackpotVolume: 1
+  _mixes:
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _name: Flaming Cut
+    _tint: {r: 1, g: 0.5, b: 0.1, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Cut
+    _tint: {r: 0.55, g: 0.9, b: 1, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Venom Cut
+    _tint: {r: 0.55, g: 0.9, b: 0.2, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Prism Cut
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Rainbow Git
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _name: Hellfire Git
+    _tint: {r: 1, g: 0.45, b: 0.1, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Toxic Git
+    _tint: {r: 0.6, g: 0.95, b: 0.25, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Storm Bolt
+    _tint: {r: 0.4, g: 0.7, b: 1, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _name: Fire Pet
+    _tint: {r: 1, g: 0.5, b: 0.1, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Pet
+    _tint: {r: 0.55, g: 0.9, b: 1, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Water Pet
+    _tint: {r: 0.3, g: 0.6, b: 1, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Venom Pet
+    _tint: {r: 0.55, g: 0.9, b: 0.2, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Scare Pet
+    _tint: {r: 0.6, g: 0.25, b: 0.85, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Rainbow Pet
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Pet
+    _tint: {r: 0.4, g: 1, b: 0.55, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _name: Storm Pet
+    _tint: {r: 1, g: 0.95, b: 0.3, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _name: Blade Pet
+    _tint: {r: 0.9, g: 0.3, b: 0.35, a: 1}
+    _rainbow: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1

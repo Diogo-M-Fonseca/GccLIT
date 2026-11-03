@@ -18,14 +18,20 @@ internal sealed class WordTrailView : MonoBehaviour
     {
         foreach (GameObject go in _spawned) Destroy(go);
         _spawned.Clear();
-        _resultLabel.text = "";
+        if (_resultLabel != null) _resultLabel.text = "";
     }
 
     internal IEnumerator Play(CastResult result)
     {
         Clear();
 
-        if (result.Effective == null)
+        if (_wordPrefab == null || _container == null || _resultLabel == null)
+        {
+            Debug.LogError("[SpellTypos] WordTrailView: falta Word Prefab, Container ou Result Label.", this);
+            yield break;
+        }
+
+        if (result.Steps.Count == 0)
         {
             _resultLabel.text = "Not a spell...";
             yield break;
@@ -46,11 +52,19 @@ internal sealed class WordTrailView : MonoBehaviour
             t.color = step.IsSpell ? _spellColor : _noiseColor;
             t.text = $"{arrow}{step.Word}\n<size=45%>{sub}</size>";
 
-            _resultLabel.text = $"{step.Effect.Effect.Label} {step.Effect.Power}";
+            if (step.IsSpell && step.Effect != null && step.Effect.Effect != null)
+                _resultLabel.text = step.Effect.EffectText;
             yield return new WaitForSeconds(_stepDelay);
         }
 
+        if (result.Fizzled)
+        {
+            _resultLabel.text = "<color=#FF6666>Lost in translation: nothing happens</color>";
+            yield break;
+        }
+
         SpellEntry final = result.Effective;
-        _resultLabel.text = $"Cast: <b>{final.Word}</b> - {final.Effect.Label} {final.Power}";
+        string times = result.Repeats > 1 ? $" x{result.Repeats}" : "";
+        _resultLabel.text = $"Cast: <b>{final.DisplayName}</b> - {final.EffectText}{times}";
     }
 }

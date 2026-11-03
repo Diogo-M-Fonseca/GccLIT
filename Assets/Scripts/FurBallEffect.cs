@@ -3,6 +3,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "SpellTypos/Effects/Fur Ball")]
 internal sealed class FurBallEffect : SpellEffect
 {
+    internal override bool Reflectable => false;
+
     internal override string Apply(Combatant caster, Combatant target, int power)
     {
         caster.AddFurBall(power);

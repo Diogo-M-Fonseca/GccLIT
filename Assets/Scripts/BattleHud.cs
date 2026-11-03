@@ -24,11 +24,18 @@ internal sealed class BattleHud : MonoBehaviour
     {
         _roomTitle.text = room.RoomName;
 
+        if (room.Filters.Count == 0)
+            Debug.LogWarning($"[SpellTypos] Room '{room.RoomName}' has no filters assigned, so spells will not be transformed.", this);
+
         var sb = new StringBuilder("The room speaks:\n");
         if (room.Filters.Count == 0) sb.Append("<color=#AAAAAA>plain words</color>");
         foreach (LanguageFilter f in room.Filters)
         {
-            if (f == null) continue;
+            if (f == null)
+            {
+                Debug.LogWarning($"[SpellTypos] Room '{room.RoomName}' has an empty Filter slot (None).", this);
+                continue;
+            }
             sb.Append($"<b>{f.DisplayName}</b>");
             if (!string.IsNullOrEmpty(f.Hint)) sb.Append($" <color=#AAAAAA>({f.Hint})</color>");
             sb.Append('\n');

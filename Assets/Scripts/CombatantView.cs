@@ -41,7 +41,12 @@ internal sealed class CombatantView : MonoBehaviour
 
         string status = "";
         if (_combatant.BurnTurns > 0) status += $"<color=#FF7A2F>Burn {_combatant.BurnTurns}</color>  ";
-        if (_combatant.FurCharges > 0) status += $"<color=#C9A36B>Fur x{_combatant.FurCharges}</color>";
+        if (_combatant.PoisonStacks > 0) status += $"<color=#7CFF4F>Poison {_combatant.PoisonStacks}</color>  ";
+        if (_combatant.FurCharges > 0) status += $"<color=#C9A36B>Fur x{_combatant.FurCharges}</color>  ";
+        if (_combatant.MirrorCharges > 0) status += $"<color=#CFEFFF>Mirror x{_combatant.MirrorCharges}</color>  ";
+        if (_combatant.FearTurns > 0) status += $"<color=#B070FF>Fear {_combatant.FearTurns}</color>  ";
+        if (_combatant.WetTurns > 0) status += $"<color=#4FB3FF>Wet {_combatant.WetTurns}</color>  ";
+        if (_combatant.FreezeTurns > 0) status += $"<color=#9FE8FF>Frozen {_combatant.FreezeTurns}</color>";
         _statusText.text = status;
     }
 }
