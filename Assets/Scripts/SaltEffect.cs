@@ -11,7 +11,7 @@ internal sealed class SaltEffect : SpellEffect
         int lost = target.TakeDamage(scars * power, out bool absorbed);
         if (absorbed) return $"{target.DisplayName}'s fur ball swallows the salt!";
 
-        target.ClearScars();
+        if (!MixedEffect.KeepScars && !BloodPacts.Active(BloodPerk.KeepScars)) target.ClearScars();
         return $"Salt pours into {scars} scar{(scars == 1 ? "" : "s")} on {target.DisplayName} ({lost} HP lost). The scars close.";
     }
 }

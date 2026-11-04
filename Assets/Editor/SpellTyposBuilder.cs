@@ -566,80 +566,17 @@ internal static class SpellTyposBuilder
         return added;
     }
 
-    // Spell mixes the book starts with (body word, rider word, name, tint, rainbow). Typing both words in one line,
-    // in any order, casts the body with the rider's effect added: "fire cut" = a cut that also burns.
-    // The effects are taken from the book's own entries, so aliases and renamed spells keep working.
-    private static readonly (string Body, string Rider, string Name, Color Tint, bool Rainbow)[] DefaultMixes =
-    {
-        ("cut", "fire", "Flaming Cut", new Color(1f, 0.5f, 0.1f), false),
-        ("cut", "ice", "Frost Cut", new Color(0.55f, 0.9f, 1f), false),
-        ("cut", "poison", "Venom Cut", new Color(0.55f, 0.9f, 0.2f), false),
-        ("cut", "rainbow", "Prism Cut", Color.white, true),
-        ("git", "rainbow", "Rainbow Git", Color.white, true),
-        ("git", "fire", "Hellfire Git", new Color(1f, 0.45f, 0.1f), false),
-        ("git", "poison", "Toxic Git", new Color(0.6f, 0.95f, 0.25f), false),
-        ("bolt", "water", "Storm Bolt", new Color(0.4f, 0.7f, 1f), false),
-        // Pets: the familiar takes the second spell and casts it on the enemy once every turn.
-        ("familiar", "fire", "Fire Pet", new Color(1f, 0.5f, 0.1f), false),
-        ("familiar", "ice", "Frost Pet", new Color(0.55f, 0.9f, 1f), false),
-        ("familiar", "water", "Water Pet", new Color(0.3f, 0.6f, 1f), false),
-        ("familiar", "poison", "Venom Pet", new Color(0.55f, 0.9f, 0.2f), false),
-        ("familiar", "fear", "Scare Pet", new Color(0.6f, 0.25f, 0.85f), false),
-        ("familiar", "rainbow", "Rainbow Pet", Color.white, true),
-        ("familiar", "heal", "Healing Pet", new Color(0.4f, 1f, 0.55f), false),
-        ("familiar", "bolt", "Storm Pet", new Color(1f, 0.95f, 0.3f), false),
-        ("familiar", "cut", "Blade Pet", new Color(0.9f, 0.3f, 0.35f), false)
-    };
-
-    // Adds the default mixes the book does not have yet (when both spells are in the book). Existing mixes are never
-    // changed. Returns how many were added.
+    // Adds the mixes the book does not have yet (the full table lives in SpellTyposMixTable) and gives every spell
+    // its signature colour. Existing mixes are never changed. Returns how many were added.
     internal static int AddDefaultMixes(SpellBook book)
     {
-        if (book == null) return 0;
-        int added = 0;
+        return SpellTyposMixTable.Apply(book, false).Added;
+    }
 
-        foreach ((string bodyWord, string riderWord, string name, Color tint, bool rainbow) in DefaultMixes)
-        {
-            var so = new SerializedObject(book);
-            SerializedProperty entries = so.FindProperty("_entries");
-            SerializedProperty mixes = so.FindProperty("_mixes");
-            Object body = null, rider = null;
-
-            for (int i = 0; i < entries.arraySize; i++)
-            {
-                SerializedProperty e = entries.GetArrayElementAtIndex(i);
-                string word = CastResolver.Normalize(e.FindPropertyRelative("_word").stringValue);
-                if (word == bodyWord && body == null) body = e.FindPropertyRelative("_effect").objectReferenceValue;
-                else if (word == riderWord && rider == null) rider = e.FindPropertyRelative("_effect").objectReferenceValue;
-            }
-            if (body == null || rider == null) continue;
-
-            bool exists = false;
-            for (int i = 0; i < mixes.arraySize; i++)
-            {
-                SerializedProperty m = mixes.GetArrayElementAtIndex(i);
-                Object b = m.FindPropertyRelative("_body").objectReferenceValue;
-                Object r = m.FindPropertyRelative("_rider").objectReferenceValue;
-                if ((b == body && r == rider) || (b == rider && r == body)) exists = true;
-            }
-            if (exists) continue;
-
-            // InsertArrayElementAtIndex copies the last element, so every field is set.
-            int n = mixes.arraySize;
-            mixes.InsertArrayElementAtIndex(n);
-            SerializedProperty added1 = mixes.GetArrayElementAtIndex(n);
-            added1.FindPropertyRelative("_body").objectReferenceValue = body;
-            added1.FindPropertyRelative("_rider").objectReferenceValue = rider;
-            added1.FindPropertyRelative("_name").stringValue = name;
-            added1.FindPropertyRelative("_tint").colorValue = tint;
-            added1.FindPropertyRelative("_rainbow").boolValue = rainbow;
-            added1.FindPropertyRelative("_riderEveryHit").boolValue = false;
-            added1.FindPropertyRelative("_playRiderSound").boolValue = true;
-            so.ApplyModifiedProperties();
-            EditorUtility.SetDirty(book);
-            added++;
-        }
-        return added;
+    // Same, but also rewrites the rules of the mixes the book already has. Returns how many were added and updated.
+    internal static (int Added, int Updated) UpdateMixRules(SpellBook book)
+    {
+        return SpellTyposMixTable.Apply(book, true);
     }
 
     internal static SpellBook CreateEmptyBook()

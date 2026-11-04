@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DamageEffect
   _label: Shock
   _description: Hurts the target, and hurts it more while it is wet.
+  _color: {r: 1, g: 0.95, b: 0.3, a: 1}
   _wetMultiplier: 1.5

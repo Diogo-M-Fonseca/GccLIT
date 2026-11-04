@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ExplosionEffect
   _label: Explosion
   _description: Kills you AND the enemy. You still win the room, but at what cost.
+  _color: {r: 1, g: 0.55, b: 0.1, a: 1}

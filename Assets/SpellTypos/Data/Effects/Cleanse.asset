@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanseEffect
   _label: Cleanse
   _description: Removes burn, fear, wet and freeze from the caster.
+  _color: {r: 0.75, g: 1, b: 1, a: 1}

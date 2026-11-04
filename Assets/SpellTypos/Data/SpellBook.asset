@@ -563,119 +563,6718 @@ MonoBehaviour:
   - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
     _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
     _name: Flaming Cut
+    _useRiderColor: 1
     _tint: {r: 1, g: 0.5, b: 0.1, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
     _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
     _name: Frost Cut
+    _useRiderColor: 1
     _tint: {r: 0.55, g: 0.9, b: 1, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
     _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
     _name: Venom Cut
+    _useRiderColor: 1
     _tint: {r: 0.55, g: 0.9, b: 0.2, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
     _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
     _name: Prism Cut
+    _useRiderColor: 1
     _tint: {r: 1, g: 1, b: 1, a: 1}
     _rainbow: 1
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
     _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
     _name: Rainbow Git
+    _useRiderColor: 1
     _tint: {r: 1, g: 1, b: 1, a: 1}
     _rainbow: 1
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
     _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
     _name: Hellfire Git
+    _useRiderColor: 1
     _tint: {r: 1, g: 0.45, b: 0.1, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
     _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
     _name: Toxic Git
+    _useRiderColor: 1
     _tint: {r: 0.6, g: 0.95, b: 0.25, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
     _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
     _name: Storm Bolt
+    _useRiderColor: 1
     _tint: {r: 0.4, g: 0.7, b: 1, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
     _name: Fire Pet
+    _useRiderColor: 1
     _tint: {r: 1, g: 0.5, b: 0.1, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
     _name: Frost Pet
+    _useRiderColor: 1
     _tint: {r: 0.55, g: 0.9, b: 1, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
     _name: Water Pet
+    _useRiderColor: 1
     _tint: {r: 0.3, g: 0.6, b: 1, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
     _name: Venom Pet
+    _useRiderColor: 1
     _tint: {r: 0.55, g: 0.9, b: 0.2, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
     _name: Scare Pet
+    _useRiderColor: 1
     _tint: {r: 0.6, g: 0.25, b: 0.85, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
     _name: Rainbow Pet
+    _useRiderColor: 1
     _tint: {r: 1, g: 1, b: 1, a: 1}
     _rainbow: 1
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
     _name: Healing Pet
+    _useRiderColor: 1
     _tint: {r: 0.4, g: 1, b: 0.55, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
     _name: Storm Pet
+    _useRiderColor: 1
     _tint: {r: 1, g: 0.95, b: 0.3, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
   - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
     _rider: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
     _name: Blade Pet
+    _useRiderColor: 1
     _tint: {r: 0.9, g: 0.3, b: 0.35, a: 1}
     _rainbow: 0
+    _shades: 0
     _riderEveryHit: 0
     _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de blot, antes de ir a segunda onda de blot aparece na
+      tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 1
+    _design: "in this sacrifice blot is sacrificed and a message appears \"weakling
+      sacrificed\" 2x damage para todos os spells at\xE9 o final do jogo"
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Fury
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: tudo como descrito mas  o raio deve ser da cor do rider
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 1
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: raio com fur que ignora shield o raio deve ser da cor do rider
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 1
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: raio que cura o inimigo o raio deve ser da cor do rider
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "s\xF3 congela depois do inimigo ser atingido pelo raio, o raio deve
+      ser da cor do rider"
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de raio, antes de ir a segunda onda de bola de fogo aparece
+      na tela "AGAIN!" o raio deve ser da cor do rider
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Venom Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Prism Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: tudo igual ao descrito mas o raio deve ser da cor do rider
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 2
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento o bolt e qualquer
+      varia\xE7\xE3o dele fica enorme e d\xE1 o dobro do dano"
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "s\xF3 aplica o efeito shatter depois do raio atingir"
+  - _body: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Bolt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Cleanse
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 4
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento o player \xE9 imune
+      a status"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _name: Storm Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 2
+    _target: 1
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: no ultimo cut cai um lightening no inimigo
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "limpa um status por cada cut se houver mais status do que cut n\xE3o
+      limpa tudo"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 1
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: o cut vem com uma bola de pelo que faz com que os cuts ignorem shield
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _name: Lucky Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "espera o gamble terminar, d\xE1 muitos cuts mas no caso de jackpot
+      para al\xE9m dos muitos cuts d\xE1 um cut maior e mais epico"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _name: Meteoric Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 1
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 1
+    _arenaBuff: 0
+    _pact: 0
+    _design: deixa cair meteoros mas o player corta os meteoros que cairiam nele
+      mesmo evitando dano
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 2
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 1
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "o poop neste caso serve s\xF3 para dar dano incremental, n\xE3o destroi
+      as cicatrizes"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "neste caso o sacrifice \xE9 a vida retirada ao inimigo com o cut"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 2
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 1
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "o sal neste caso serve s\xF3 para dar dano incremental, n\xE3o destroi
+      as cicatrizes"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 2
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "o ultimo corte estilha\xE7a o alvo com o centro do efeito sendo o uktimo
+      estilha\xE7o"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 um shield por cada cut"
+  - _body: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Cut
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 um wet por cada cut"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _name: Storm Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "A explos\xE3o espera um raio enorme cair no mapa antes de explodir
+      no sitio onde o raio caiu, o resto da l\xF3gica da explos\xE3o metem-se igual"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "Explos\xE3o  que em vez de dar dano d\xE1 clense a todos na arena"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _name: Razor Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o de cortes que d\xE1 o maximo de cortes a todos na arena"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 1
+    _byDamage: 0
+    _stack: 0
+    _permanent: 1
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "uma explos\xE3o de fear que em vez de matar mete fear permanente no
+      inimigo imune ao player"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _name: Flaming Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 1
+    _pact: 0
+    _design: "explos\xE3o de fogo deixa fogo na arena proximo ataque de fogo ser\xE1
+      mais forte"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 1
+    _arenaBuff: 0
+    _pact: 0
+    _design: devido ao fur  o player sobrevive
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _name: Lucky Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o que mata todos ap\xF3s resultado do gamble mas se calhar
+      jackpot o player n\xE3o leva dano"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _name: Binary Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "uma explos\xE3o de bits explode uma x quantidade de vezes s\xF3 a ultima
+      explos\xE3o realmente finaliza todos"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o que em vez de dar dano cura todos na arena"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 1
+    _pact: 0
+    _design: "explos\xE3o de fogo deixa fogo na arena proximo ataque de gelo ser\xE1
+      mais forte"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _name: Meteoric Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "A explos\xE3o espera um meteoro enorme cair no mapa antes de explodir
+      no sitio onde o meteoro caiu, o resto da l\xF3gica da explos\xE3o metem-se
+      igual"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "duas explos\xF5es, a primeira devido ao feiti\xE7o a segunda por ser
+      refletida pelo mirror"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Venom Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o que em vez de dar dano d\xE1 poison a todos no mapa"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o de poop que em vez de dar dano aplica poop a todos no 
+      mapa"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Prism Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "Explos\xE3o arco iris que em vez de dar dano d\xE1 os status maus a
+      todos na arena"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 1
+    _design: "quando o sacrifice \xE9 feito desta maneira o 2x damage buff \xE9 permanente
+      para o resto da run"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o de sal que em vez de matar aplica salt a todos na arena"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o que d\xE1 shatter na propria arena, puramente visual o
+      resto da l\xF3gica da explos\xE3o mant\xEAm se"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o que em vez de dar dano d\xE1 shield a todos"
+  - _body: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Blast
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 1
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "explos\xE3o de agua que em vez de dar dano deixa todos no mapa wet"
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Fury Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Holy Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 696e3b2a63a3a364b98840a583be8e09, type: 2}
+    _name: Bomb Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: familiar explosion mata apenas o familiar e o inimigo e gasta o spell
+      explosion na mesma
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Fluffy Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _name: Lucky Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "Todos os turnos ele roda minislots que ao acertar jackpot d\xE3o metade
+      do dano normal de um jackpot ao inimigo"
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _name: Binary Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _name: Comet Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "os meteoros afetam primeiro o pet e s\xF3 depois a mim"
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirror Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "sempre que devolver um feiti\xE7o perde 2 de vida"
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 9
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento os familiares ficam
+      com o dobro da vida e do dano e ficam enormes"
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salty Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Crystal Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 33fb02da105a5ad418f4a46c0f5075b2, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Guardian Pet
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Fear
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Fear
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Fear
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Fear
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de fear, antes de ir a segunda onda de fear aparece na
+      tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Fear
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 10
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento se o inimigo tiver
+      10 ou mais fear stacks ele mata-se"
+  - _body: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Fear
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _name: Storm Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "o raio s\xF3 cai depois da bola de fogo acertar o alvo"
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "a bola de fogo fica roxa para al\xE9m do efeito que mencionaste"
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 1
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "uma bola de fogo com fur que destroi shield e d\xE1 dano"
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "para al\xE9m disso a bola de fogo deve ser fogo verde"
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de bola de fogo, antes de ir a segunda onda de bola de
+      fogo aparece na tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Venom Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Prism Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 2
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento a bola de fogo e
+      qualquer varia\xE7\xE3o dele fica enorme e d\xE1 o dobro do dano"
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 1
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 shatter primeiro depois burn, o efeito do shatter s\xF3 \xE9
+      disparado quando a bola de fogo toca no inimigo"
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Fireball
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "o efeito visual deveria ser uma bola de fogo e de agua a serem lan\xE7adas
+      em helice entre si"
+  - _body: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Fur
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Fur
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Fur
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 6
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento todas as habilidades
+      do jogador ignoram shield do inimigo e v\xE3o com o efeito visual do fur"
+  - _body: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Fur
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _name: Storm Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "Cada simbolo igual d\xE1 cleanse a um status, caso jackpot torna o
+      player imune a status"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 1
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 fear permanente caso jackpot, caso contr\xE1rio nada acontece,
+      os simbulos s\xE3o coisas assustadoras como caveiras morcegos etc"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _name: Flaming Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "cada slot igual lan\xE7a uma bola de fogo, caso jackpot lan\xE7a uma
+      bola de fogo muito grande, ap\xF3s jackpot o simbolo do jackpot vira fogo,
+      o mapa fica com varios fogos"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "caso jackpot d\xE1 te bola de pelo por 3 turnos e deixa o mapa cheio
+      de bolas de pelo, caso contr\xE1rio nada acontece, quando acontece o jackpot
+      o simbolo que foi jackpoted vira fur antes da anima\xE7\xE3o acabar"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "caso jackpot cura te a vida toda e d\xE1 te o dobro da vida maxima,
+      caso contr\xE1rio cura um pouco a cada simbolo igual, os simbulos s\xE3o cruzes
+      m\xE9dicas de diferentes cores"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 1
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: caso jackpot o mapa fica cheio de cubos e espinhos de gelo e o inimigo
+      fica congelado premanetemente, caso contrario nada acontece
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _name: Meteoric Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 1
+    _arenaBuff: 0
+    _pact: 0
+    _design: "caso jackpot caem meteoros e o player n\xE3o leva dano, caso contr\xE1rio
+      nada acontece, caso jackpot os simbolos do jackpot viram meteoros antes da
+      anima\xE7\xE3o acabar"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "cada simbolo igual d\xE1 um mirror ao player, caso aconte\xE7a jackpot
+      o inimigo come\xE7a a fazer gamble, se o inimigo n\xE3o conseguir jackpot leva
+      dano se conseguir jackpot n\xE3o leva dano e o jogador perde os mirrors"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Venom Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: a cada simbolo igual adiciona um poison por cada  e em caso de jackpot
+      o inimigo ganha 10 poison
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: a cada simbolo igual adiciona um veneno por cada duas cicatrizes sem
+      gastar as cicatrizes e em caso de jackpot um poop enorme cai em cima do inimigo
+      e o inimigo recebe 10 veneno por cada cicatriz
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Prism Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "caso n\xE3o d\xEA jackpot nada acontece, caso d\xEA jackpot o efeito
+      rainbow acontece o o cenario fica rainbow  tamb\xE9m para al\xE9m disso o player
+      ganha todos os status positivos, os simbolos s\xE3o cor de arco iris"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 8
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento gamble e todas as
+      suas varia\xE7\xF5es t\xEAm 100% de chance de dar jackpot"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "caso jackpot cria pilhas de salt no mapa agora o sal \xE9 aplicado
+      automaticamente sempre que o inimigo tiver cuts suficientes"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "caso jackpot tem o efeito do explosion shatter mas o player n\xE3o
+      leva dano, caso contr\xE1rio nada acontece"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "cada simbolo igual d\xE1 shield ao player e em caso de jackpot o player
+      absorve 90% da vida do inimigo e transforma em shield"
+  - _body: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Gamble
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "cada simbolo igual adiciona wet e em caso de jackpot um tsunami engole
+      o inimigo d\xE1 bastante dano e bastantes stacks de wet"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _name: Storm Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "cada hit limpa um status se tiver mais que o numero de hits do git
+      n\xE3o limpa todos"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 38cebd903db499741a3fdc89f3c93be0, type: 2}
+    _name: Razor Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: corta uma ver por cada hit
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 1
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: cada hit adiciona mais fear
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 1
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "os numeros s\xE3o disparados com bolas de pelo \xE1 sua volta, destroi
+      shields"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 97096db5f5c96cc4f8fea92dda0ae274, type: 2}
+    _name: Lucky Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 gamble s\xF3 que os simbolos s\xE3o s\xF3 0 e 1 ent\xE3o fica
+      mais facil ter jackpot mas o dano \xE9 menor"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 1
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: cada bit cura o inimigo
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 1
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: cada hit congela mais
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _name: Meteoric Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "Caem meteoros mas o trail deles \xE9 os bits"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 7
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento git e qualquer varia\xE7\xE3o
+      passa a ser 2 vezes mais longo com 2 vezes mais hits e o numero passa a ser
+      171004042026"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: salga uma ver por cada hit
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "estilha\xE7a uma ver por cada hit"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 te escudo por cada hit do git"
+  - _body: {fileID: 11400000, guid: e7485669e87f6f14a8f252692047bdf6, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Git
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 1 wet por cada hit do git"
+  - _body: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Heal
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Heal
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 3
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento o spell heal e todas
+      as suas varia\xE7\xF5es curam a vida toda"
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de ice, antes de ir a segunda onda de ice aparece na
+      tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 13
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento sempre que o jogador
+      mandar ice ou qualquer varia\xE7\xE3o de ice para al\xE9m dos efeitos dessa
+      varia\xE7\xE3o serem aplicados o jogador congela-se num gelo de sangue e cura-se,
+      no final do turno o gelo descongela sem fazer o player perder turnos"
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Deep Freeze
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Ice
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 5b8cfa60121390442bcbd9d4854fca72, type: 2}
+    _name: Storm Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "o efeito to choque \xE9 aplicado a todos, e cai raios onde o meteoro
+      cair"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "os hits dos meteoros d\xE3o clense tanto o player quanto o inimigo,
+      os meteoros s\xE3o cruzes m\xE9dicas e t\xEAm trail de cruzes"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 5a86153b7deebfa449f4d363df491036, type: 2}
+    _name: Flaming Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 1
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: faz meteoros com fur cairem, destroi shields e todos
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "os hits dos meteoros curam tanto o player quanto o inimigo os meteoros
+      s\xE3o cruzes m\xE9dicas e t\xEAm trail de cruzes"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: cai duas ondas de meteoros, antes de cair a segunda onde de meteoros
+      aparece na tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Venom Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: envenena todos
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: a todos
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Prism Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: com um trail de arco iris
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 5
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento meteor e qualquer
+      varia\xE7\xE3o dele n\xE3o afeta mais negativamente o player"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "os hits dos meteoros aplicam salt tanto nos inimigos quanto no player,
+      os meteoros s\xE3o feitos de salt e t\xEAm um trail de salt"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "visualmente o meteoro d\xE1 shatter onde cai, cada hit do meteoro d\xE1
+      shatter tanto no player quanto no inimigo"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 1
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "cada hit do meteoro d\xE1 shield a todos"
+  - _body: {fileID: 11400000, guid: aae1a54ba0034dd4b80fcec927d27797, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Meteor
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 3
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: molha todos
+  - _body: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Mirror
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 4
+    _target: 0
+    _byDamage: 1
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 te cleanse pelo dano da habilidade refletida, se houver status
+      a mais n\xE3o cura tudo"
+  - _body: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Mirror
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Mirror
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 4
+    _target: 0
+    _byDamage: 1
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: cura te pelo dano da habilidade refletida
+  - _body: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Mirror
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 14
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento todas as habilidades
+      do jogador s\xE3o lan\xE7adas duas vezes com uma mensagem na tela a dizer \"Blood
+      mirror: AGAIN!\""
+  - _body: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Mirror
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 4
+    _target: 0
+    _byDamage: 1
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 te escudo pelo dano da habilidade refletida"
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 3
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "esta habilidade d\xE1 cleanse sempre que o poison no inimigo der tic"
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 3
+    _target: 0
+    _byDamage: 1
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "esta habilidade cura o player pela quantidade de dano que o poison
+      der ao inimigo e \xE9 curado por essa quantidade sempre que o poison do inimigo
+      der tic"
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _name: Prism Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 1
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 1
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 poison permanente e as cores do arco iris s\xE3o varia\xE7\xF5es
+      de tonalidade da cor do poison"
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 12
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento qualquer a\xE7\xE3o
+      que o inimigo fa\xE7a aplica poison nele mesmo"
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _name: Shattering Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 3
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "estilha\xE7a o alvo sempre que o poison no inimigo der tic"
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 3
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 escudo sempre que poison no inimigo der tic"
+  - _body: {fileID: 11400000, guid: debf6818e86cfa94d82f2447a8083300, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Poison
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 cleanse apenas se o veneno for aplicado pela quantidade de vezes
+      que veneno foi aplicado"
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "assusta o inimigo s\xF3 quando o veneno \xE9 aplicado"
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "s\xF3 aplica fur se o veneno for aplicado"
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: cura apenas se o veneno for aplicado
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de poop, antes de ir a segunda onda de poop aparece na
+      tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 18
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento poop e as suas varia\xE7\xF5es
+      s\xE3o enormes n\xE3o gastaram os cuts e criaram mais cuts"
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "apenas d\xE1 escudo se o veneno for aplicado"
+  - _body: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Poop
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 1
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "s\xF3 molha se o veneno for aplicado"
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 1
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 1
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 fear permanente e as cores do arco iris s\xE3o varia\xE7\xF5es
+      de tonalidade da cor do fear"
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "aceito mas as cores do arco iris s\xE3o varia\xE7\xF5es de tonalidade
+      da cor do heal"
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 8073be8fb25befd4ea6c55ae810ec8ea, type: 2}
+    _name: Frost Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 1
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 1
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 ice permanente e as cores do arco iris s\xE3o varia\xE7\xF5es
+      de tonalidade da cor do ice"
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de rainbow, antes de ir a segunda onda de rainbow aparece
+      na tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 15
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento sempre que o inimigo
+      for iniciar o seu turno os efeitos de rainbow s\xE3o aplicados e a tela fica
+      arco iris por 2 segundos"
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Rainbow
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 1
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 1
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 1
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 wet permanente e as cores do arco iris s\xE3o varia\xE7\xF5es
+      de tonalidade da cor do water"
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 1
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "d\xE1 clense pelo valor de dano dado, se o valor for menor que o numero
+      de status aplicados no player n\xE3o cura todos"
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 1
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: cura te pelo valor de dano dado
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de salt, antes de ir a segunda onda de salt aparece na
+      tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 18
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento salt e as suas varia\xE7\xF5es
+      n\xE3o gastaram os cuts e criaram mais cuts"
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Salt
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 1
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: molha pelo valor de dano dado
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: da4358fc5532f5848ac2b3a00133dbf7, type: 2}
+    _name: Furious Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 1
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 1
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: "shatter com fur que destroi shields e d\xE1 mais dano se o inimigo
+      tiver shields"
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de Shatter, antes de ir a segunda onda de Shatter aparece
+      na tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 80139082b34342e43b362605e841ee98, type: 2}
+    _name: Stinky Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 89e1743694ce21b49bbcb51d94a86e8d, type: 2}
+    _name: Prism Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 17
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento sempre que o inimigo
+      estiver congelado o shatter acontece automaticamente sem desperdi\xE7ar o turno
+      do player"
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 5d3f6253499723e41b93168d6eb3fcf8, type: 2}
+    _name: Salted Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: cae22e26a3d5318449351fa24a09d9a0, type: 2}
+    _rider: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _name: Soaked Shatter
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Shield
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Shield
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Shield
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 16
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento todos os turnos
+      o player ganha shields"
+  - _body: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _rider: {fileID: 11400000, guid: 91f36ee0b011ca443b403158014291d5, type: 2}
+    _name: Purifying Splash
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _rider: {fileID: 11400000, guid: 80880703036e4864fa343aab1543c097, type: 2}
+    _name: Dread Splash
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _rider: {fileID: 11400000, guid: 4467f24d437d6e34ba3533f786b17085, type: 2}
+    _name: Furry Splash
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _rider: {fileID: 11400000, guid: 6fbb7d8821a38094094b1449e8ccb8d0, type: 2}
+    _name: Healing Splash
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 
+  - _body: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _rider: {fileID: 11400000, guid: 69aea8dde84d9b943b7ba7d93e246913, type: 2}
+    _name: Mirrored Splash
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 1
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: vai duas ondas de water, antes de ir a segunda onda de water aparece
+      na tela "AGAIN!"
+  - _body: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _rider: {fileID: 11400000, guid: a847f038bb5aaa44ba1b3d94756ac2cb, type: 2}
+    _name: Blood Splash
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 11
+    _design: "para este sacrificio o player s\xF3 pode escolher sacrificar metade
+      da sua vida maxima para o resto do jogo, o seu familiar ou ent\xE3o dois feiti\xE7os
+      aleat\xF3rios escolhidos pelo jogo, a partir desse momento se o inimigo tiver
+      10 ou mais wet stacks ele afoga-se e morre instantaneamente"
+  - _body: {fileID: 11400000, guid: 5fb7dbb843df8454cab5349b47cb7d14, type: 2}
+    _rider: {fileID: 11400000, guid: 9f14d1ed2ef5e6a49a5f7589e8d7277b, type: 2}
+    _name: Shielded Splash
+    _useRiderColor: 1
+    _tint: {r: 1, g: 1, b: 1, a: 1}
+    _rainbow: 0
+    _shades: 0
+    _riderEveryHit: 0
+    _playRiderSound: 1
+    _timing: 0
+    _target: 0
+    _byDamage: 0
+    _stack: 0
+    _permanent: 0
+    _riderFirst: 0
+    _onlyIfBodyHit: 0
+    _riderVisualOnly: 0
+    _bodyVisualOnly: 0
+    _again: 0
+    _area: 0
+    _pierceShield: 0
+    _keepScars: 0
+    _noSelfDamage: 0
+    _arenaBuff: 0
+    _pact: 0
+    _design: 

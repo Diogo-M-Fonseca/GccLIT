@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WetEffect
   _label: Wet
   _description: Soaks the target for a few turns, so Shock spells hit harder.
+  _color: {r: 0.3, g: 0.6, b: 1, a: 1}
   _turns: 4

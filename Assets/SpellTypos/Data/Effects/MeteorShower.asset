@@ -15,4 +15,5 @@ MonoBehaviour:
   _label: Meteor Shower
   _description: 'Meteors rain on the whole room: each wave hurts you AND the enemy
     (power = damage per wave, 3 waves).'
+  _color: {r: 1, g: 0.38, b: 0.12, a: 1}
   _waves: 3

@@ -43,7 +43,7 @@ internal struct SpellVfxTiming
     internal float FinaleSpan;
 }
 
-internal sealed class SpellVfxPlayer : MonoBehaviour
+internal sealed partial class SpellVfxPlayer : MonoBehaviour
 {
     [SerializeField] private float _fireballTravelTime = 0.55f;
     [SerializeField] private float _sparkTravelTime = 0.25f;
@@ -101,9 +101,12 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
     private readonly List<TextMeshPro> _tintedTexts = new List<TextMeshPro>();
     private const float TintStrength = 0.8f;
 
-    internal void SetTint(Color color, bool rainbow)
+    private bool _tintShades;
+
+    internal void SetTint(Color color, bool rainbow, bool shades = false)
     {
         _tintOn = true;
+        _tintShades = shades;
         _tintColor = color;
         _tintRainbow = rainbow;
     }
@@ -117,6 +120,12 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
 
     private Color TintFor(Vector3 position)
     {
+        if (_tintShades)
+        {
+            Color.RGBToHSV(_tintColor, out float h, out float s, out float v);
+            float wave = 0.5f + 0.5f * Mathf.Sin(Time.time * 6f + position.x * 1.5f + position.y * 1.1f);
+            return Color.HSVToRGB(h, Mathf.Lerp(0.35f, 1f, wave), Mathf.Lerp(0.55f, 1f, wave));
+        }
         if (!_tintRainbow) return _tintColor;
         float hue = Mathf.Repeat(Time.time * 0.9f + position.x * 0.12f + position.y * 0.08f, 1f);
         return Color.HSVToRGB(hue, 0.85f, 1f);
@@ -179,9 +188,19 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
         Vector3 from = caster.VfxPoint.position;
         Vector3 to = target.VfxPoint.position;
 
+        if (_style.Helix && (kind == SpellVfxKind.Fireball || kind == SpellVfxKind.Splash))
+        {
+            if (_style.Fur) StartCoroutine(FurSkin(kind, from, to));
+            yield return Helix(from, to, Fire);
+            Fire();
+            yield break;
+        }
+
+        if (_style.Fur) StartCoroutine(FurSkin(kind, from, to));
+
         switch (kind)
         {
-            case SpellVfxKind.Fireball: yield return Fireball(from, to, Fire); break;
+            case SpellVfxKind.Fireball: yield return Fireball(from, to, Fire, _style.Scale); break;
             case SpellVfxKind.Thunder: yield return Thunder(to, Fire); break;
             case SpellVfxKind.Heal: yield return Heal(from, Fire); break;
             case SpellVfxKind.Spark: yield return Spark(from, to, Fire); break;
@@ -190,9 +209,9 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
             case SpellVfxKind.Frost: yield return Frost(to, Fire); break;
             case SpellVfxKind.Hearts: yield return Hearts(Fire); break;
             case SpellVfxKind.Meteor: yield return Meteors(Hit, impacts); break;
-            case SpellVfxKind.Explosion: yield return Explosion(Vector3.Lerp(from, to, 0.5f), Fire); break;
+            case SpellVfxKind.Explosion: yield return ExplosionStyled(Vector3.Lerp(from, to, 0.5f), Fire); break;
             case SpellVfxKind.Mirror: yield return Mirror(from, Fire); break;
-            case SpellVfxKind.Slots: yield return Slots(data, Fire, onCue); break;
+            case SpellVfxKind.Slots: yield return Slots(data, Fire, onCue, from, to); break;
             case SpellVfxKind.Cut: yield return Cuts(target, Hit, impacts); break;
             case SpellVfxKind.Salt: yield return Salt(target, Fire); break;
             case SpellVfxKind.Shatter: yield return Shatter(target, Fire); break;
@@ -348,43 +367,115 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
         };
     }
 
-    private IEnumerator Fireball(Vector3 from, Vector3 to, System.Action impact)
+    private SpriteRenderer NewFlame(Color color, Vector3 position, float width, float length)
     {
-        SpriteRenderer glow = NewSprite(CircleSprite, new Color(1f, 0.3f, 0.05f, 0.45f), from, 1.2f);
-        SpriteRenderer core = NewSprite(CircleSprite, new Color(1f, 0.65f, 0.15f, 1f), from, 0.6f);
+        SpriteRenderer sr = NewSprite(FlameVisuals.Flame, color, position, 1f);
+        sr.transform.localScale = new Vector3(width, length / 2f, 1f);
+        return sr;
+    }
+
+    private IEnumerator Fireball(Vector3 from, Vector3 to, System.Action impact, float scale = 1f)
+    {
+        Vector3 dir = (to - from).normalized;
+        float angle = Mathf.Atan2(-dir.y, -dir.x) * Mathf.Rad2Deg - 90f;
+        Quaternion tail = Quaternion.Euler(0f, 0f, angle);
+
+        SpriteRenderer glow = NewSprite(CircleSprite, new Color(1f, 0.3f, 0.05f, 0.35f), from, 1.0f * scale);
+        SpriteRenderer outer = NewFlame(FlameVisuals.Outer(0.95f), from, 0.8f * scale, 1.7f * scale);
+        SpriteRenderer mid = NewFlame(FlameVisuals.Mid(0.95f), from, 0.58f * scale, 1.3f * scale);
+        SpriteRenderer core = NewFlame(FlameVisuals.Core(1f), from, 0.34f * scale, 0.85f * scale);
+        outer.transform.rotation = tail;
+        mid.transform.rotation = tail;
+        core.transform.rotation = tail;
 
         for (float t = 0f; t < _fireballTravelTime; t += Time.deltaTime)
         {
             Vector3 p = Vector3.Lerp(from, to, t / _fireballTravelTime);
+            float flicker = 1f + 0.14f * Mathf.Sin(t * 45f);
+            float wobble = 6f * Mathf.Sin(t * 30f);
+
             glow.transform.position = p;
+            outer.transform.position = p;
+            mid.transform.position = p;
             core.transform.position = p;
-            core.transform.localScale = Vector3.one * (0.6f * (1f + 0.15f * Mathf.Sin(t * 40f)));
-            StartCoroutine(Ember(p));
+            outer.transform.rotation = Quaternion.Euler(0f, 0f, angle + wobble);
+            mid.transform.rotation = Quaternion.Euler(0f, 0f, angle - wobble);
+            outer.transform.localScale = new Vector3(0.8f * scale, 0.85f * scale * flicker, 1f);
+            mid.transform.localScale = new Vector3(0.58f * scale, 0.65f * scale * flicker, 1f);
+            StartCoroutine(Ember(p, dir));
             yield return null;
         }
 
         Destroy(glow.gameObject);
+        Destroy(outer.gameObject);
+        Destroy(mid.gameObject);
         Destroy(core.gameObject);
         impact();
-        yield return Burst(to, new Color(1f, 0.5f, 0.1f, 1f), 14, 1.1f, 0.35f, 0.3f);
+        yield return FlameBurst(to);
     }
 
     private IEnumerator Ember(Vector3 position)
     {
-        Vector3 start = position + (Vector3)(Random.insideUnitCircle * 0.12f);
-        SpriteRenderer ember = NewSprite(CircleSprite, new Color(1f, 0.45f, 0.1f, 0.8f), start, 0.25f);
-        const float life = 0.3f;
+        return Ember(position, Vector3.down);
+    }
+
+    private IEnumerator Ember(Vector3 position, Vector3 travel)
+    {
+        Vector3 start = position - travel * 0.25f + (Vector3)(Random.insideUnitCircle * 0.12f);
+        SpriteRenderer tongue = NewFlame(FlameVisuals.Outer(0.8f), start, 0.3f, 0.7f);
+        const float life = 0.35f;
+        float drift = Random.Range(-0.2f, 0.2f);
 
         for (float t = 0f; t < life; t += Time.deltaTime)
         {
             float k = t / life;
-            ember.transform.position = start + Vector3.up * (0.4f * k);
-            ember.transform.localScale = Vector3.one * (0.25f * (1f - k));
-            ember.color = new Color(1f, 0.45f - 0.2f * k, 0.1f, 0.8f * (1f - k));
+            tongue.transform.position = start + new Vector3(drift * k, 0.55f * k, 0f);
+            tongue.transform.localScale = new Vector3(0.3f * (1f - k), 0.35f * (1f - 0.6f * k), 1f);
+            tongue.color = Color.Lerp(FlameVisuals.Mid(0.8f), FlameVisuals.Outer(0f), k);
             yield return null;
         }
 
-        Destroy(ember.gameObject);
+        Destroy(tongue.gameObject);
+    }
+
+    private IEnumerator FlameBurst(Vector3 center)
+    {
+        const int count = 9;
+        const float life = 0.5f;
+        var parts = new SpriteRenderer[count];
+        var angles = new float[count];
+        var reach = new float[count];
+
+        for (int i = 0; i < count; i++)
+        {
+            angles[i] = (i + Random.value * 0.5f) / count * 360f;
+            reach[i] = Random.Range(0.6f, 1.2f);
+            parts[i] = NewFlame(i % 2 == 0 ? FlameVisuals.Outer(0.95f) : FlameVisuals.Mid(0.95f), center, 0.5f, 1f);
+        }
+        SpriteRenderer flash = NewSprite(CircleSprite, new Color(1f, 0.85f, 0.4f, 0.8f), center, 0.5f);
+
+        for (float t = 0f; t < life; t += Time.deltaTime)
+        {
+            float k = t / life;
+            float ease = 1f - (1f - k) * (1f - k);
+            for (int i = 0; i < count; i++)
+            {
+                float rad = (angles[i] + 90f) * Mathf.Deg2Rad;
+                Vector3 outward = new Vector3(Mathf.Cos(rad), Mathf.Sin(rad), 0f);
+                parts[i].transform.position = center + outward * (reach[i] * ease * 0.6f);
+                parts[i].transform.rotation = Quaternion.Euler(0f, 0f, angles[i]);
+                parts[i].transform.localScale = new Vector3(0.5f * (1f - k), 0.6f * reach[i] * (1f - 0.4f * k), 1f);
+                Color c = parts[i].color;
+                c.a = 0.95f * (1f - k);
+                parts[i].color = c;
+            }
+            flash.transform.localScale = Vector3.one * (0.5f + 1.4f * ease);
+            flash.color = new Color(1f, 0.8f, 0.35f, 0.8f * (1f - k));
+            yield return null;
+        }
+
+        foreach (SpriteRenderer sr in parts) Destroy(sr.gameObject);
+        Destroy(flash.gameObject);
     }
 
     private IEnumerator Thunder(Vector3 target, System.Action impact)
@@ -397,12 +488,12 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
         for (int i = 1; i <= segments; i++)
         {
             Vector3 next = Vector3.Lerp(top, target, (float)i / segments);
-            if (i < segments) next.x += Random.Range(-0.4f, 0.4f);
-            parts.Add(Segment(previous, next, 0.22f, new Color(1f, 0.9f, 0.3f, 0.6f)));
-            parts.Add(Segment(previous, next, 0.08f, Color.white));
+            if (i < segments) next.x += Random.Range(-0.4f, 0.4f) * _style.Scale;
+            parts.Add(Segment(previous, next, 0.22f * _style.Scale, new Color(1f, 0.9f, 0.3f, 0.6f)));
+            parts.Add(Segment(previous, next, 0.08f * _style.Scale, Color.white));
             previous = next;
         }
-        parts.Add(NewSprite(CircleSprite, new Color(1f, 0.95f, 0.6f, 0.6f), target, 2f));
+        parts.Add(NewSprite(CircleSprite, new Color(1f, 0.95f, 0.6f, 0.6f), target, 2f * _style.Scale));
 
         impact();
 
@@ -553,9 +644,9 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
             ends[i] = origin + new Vector3(Random.Range(-halfW, halfW), Random.Range(-halfH * 0.9f, halfH * 0.5f), 0f);
             starts[i] = ends[i] + new Vector3(4f, 8f, 0f) * Random.Range(0.9f, 1.15f);
             delays[i] = Random.Range(0f, maxDelay);
-            float size = Random.Range(0.35f, 0.8f);
+            float size = Random.Range(0.35f, 0.8f) * _style.Scale;
             glows[i] = NewSprite(CircleSprite, new Color(1f, 0.3f, 0.05f, 0f), starts[i], size * 2.2f);
-            rocks[i] = NewSprite(CircleSprite, new Color(0.45f, 0.25f, 0.15f, 0f), starts[i], size);
+            rocks[i] = NewSprite(MeteorSprite(), new Color(0.45f, 0.25f, 0.15f, 0f), starts[i], size);
             rocks[i].sortingOrder = _sortingOrder + 1;
         }
 
@@ -578,16 +669,16 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
                     landed[i] = true;
                     rocks[i].enabled = false;
                     glows[i].enabled = false;
-                    StartCoroutine(Burst(ends[i], new Color(1f, 0.5f, 0.1f, 1f), 10, 0.9f, 0.35f, 0.25f));
+                    StartCoroutine(MeteorLanding(ends[i]));
                     continue;
                 }
 
                 Vector3 p = Vector3.Lerp(starts[i], ends[i], k);
                 rocks[i].transform.position = p;
                 glows[i].transform.position = p;
-                rocks[i].color = new Color(0.45f, 0.25f, 0.15f, 1f);
-                glows[i].color = new Color(1f, 0.3f, 0.05f, 0.5f);
-                if ((Time.frameCount + i) % 3 == 0) StartCoroutine(Ember(p));
+                rocks[i].color = RockColor(i);
+                glows[i].color = RockGlow(i);
+                if ((Time.frameCount + i) % 3 == 0) StartCoroutine(MeteorTrail(p, i));
             }
 
             if (!hitDone && t >= hitTime)
@@ -713,7 +804,7 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
         }
     }
 
-    private IEnumerator Slots(int[] reels, System.Action impact, System.Action<SpellCue, int> cue)
+    private IEnumerator Slots(int[] reels, System.Action impact, System.Action<SpellCue, int> cue, Vector3 casterPos, Vector3 enemyPos)
     {
         Camera cam = Camera.main;
         Vector3 origin = cam != null ? cam.transform.position : Vector3.zero;
@@ -750,6 +841,7 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
         bool landed = false;
         int lastTick = -1;
         var gold = new Color(0.9f, 0.72f, 0.2f);
+        Sprite jackpotSprite = JackpotSprite();
 
         for (float t = 0f; t < total; t += Time.deltaTime)
         {
@@ -794,8 +886,9 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
                 faces[i].color = new Color(0.08f, 0.06f, 0.12f, a);
 
                 symbols[i].transform.position = p;
-                symbols[i].sprite = SlotShape(shown[i]);
-                Color c = SlotColors[shown[i] % SlotColors.Length];
+                bool swapped = landed && jackpot && jackpotSprite != null;
+                symbols[i].sprite = swapped ? jackpotSprite : SlotSprite(shown[i]);
+                Color c = swapped ? JackpotSymbolColor() : SlotColor(shown[i]);
                 c.a = a;
                 symbols[i].color = c;
                 symbols[i].transform.localScale = Vector3.one * (1.1f * (1f + 0.35f * pop));
@@ -813,6 +906,8 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
         foreach (SpriteRenderer sr in frames) Destroy(sr.gameObject);
         foreach (SpriteRenderer sr in faces) Destroy(sr.gameObject);
         foreach (SpriteRenderer sr in symbols) Destroy(sr.gameObject);
+
+        if (jackpot && _style.Jackpot != JackpotFx.None) yield return Jackpot(_style.Jackpot, casterPos, enemyPos);
     }
 
     private IEnumerator Hearts(System.Action impact)
@@ -1103,7 +1198,7 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
 
     private IEnumerator Poop(Vector3 center, System.Action impact)
     {
-        const float scale = 1.2f;
+        float scale = 1.2f * _style.Scale;
         Vector3 top = center + Vector3.up * 4f;
         var brown = new Color(0.42f, 0.26f, 0.12f, 1f);
         var lightBrown = new Color(0.52f, 0.33f, 0.16f, 1f);
@@ -1894,7 +1989,7 @@ internal sealed class SpellVfxPlayer : MonoBehaviour
             Vector3 home = PetHome(v.Owner, v.Foe);
             float bob = Mathf.Sin(Time.time * 3.2f + v.Seed) * 0.08f;
             v.Root.position = home + new Vector3(0f, bob, 0f) + v.AttackOffset;
-            v.Root.localScale = Vector3.one * v.Pop;
+            v.Root.localScale = Vector3.one * (v.Pop * (v.Owner.BloodFamiliar ? 1.8f : 1f));
 
             Color baseColor = new Color(1f, 0.9f, 0.65f);
             if (v.Owner.FamiliarEffect != null)

@@ -15,4 +15,5 @@ MonoBehaviour:
   _label: Poop
   _description: Adds poison to the target for every 2 scars it has (left by Cut).
     Power = poison stacks per 2 scars. Also cast as "shit".
+  _color: {r: 0.45, g: 0.3, b: 0.15, a: 1}
   _scarsPerStack: 2

@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DamageEffect
   _label: Damage
   _description: Hurts the target.
+  _color: {r: 0.85, g: 0.2, b: 0.2, a: 1}
+  _wetMultiplier: 1

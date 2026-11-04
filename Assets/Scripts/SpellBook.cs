@@ -77,6 +77,23 @@ internal sealed class SpellEntry
     }
 }
 
+internal enum MixTiming
+{
+    Once,
+    EveryHit,
+    LastHit,
+    EveryTick,
+    OnReflect
+}
+
+internal enum MixTarget
+{
+    Auto,
+    Enemy,
+    Self,
+    Everyone
+}
+
 [Serializable]
 internal sealed class SpellMix
 {
@@ -86,22 +103,106 @@ internal sealed class SpellMix
     [SerializeField] private SpellEffect _rider;
     [Tooltip("Name shown when the mix is cast.")]
     [SerializeField] private string _name = "Mix";
-    [Tooltip("Colour the animation is tinted with.")]
+    [Tooltip("On: the animation takes the colour of the rider (the rainbow cycles). Off: the colour below is used.")]
+    [SerializeField] private bool _useRiderColor = true;
     [SerializeField] private Color _tint = Color.white;
-    [Tooltip("Instead of one colour, the animation cycles through every colour of the rainbow.")]
     [SerializeField] private bool _rainbow;
-    [Tooltip("Off: the rider's effect lands once, with the first hit. On: it lands with every hit.")]
+    [Tooltip("Rainbow animations use shades of one colour (the rider's, or the body's when the rider is the rainbow) instead of every colour.")]
+    [SerializeField] private bool _shades;
+    [Tooltip("Old setting kept for existing books: the same as Timing = EveryHit.")]
     [SerializeField] private bool _riderEveryHit;
     [Tooltip("Also play the rider spell's sound along with the body's.")]
     [SerializeField] private bool _playRiderSound = true;
 
+    [Header("Rider rules")]
+    [Tooltip("Once: with the first hit. EveryHit: with every hit (cut, git, meteor). LastHit: only with the last one. EveryTick: every time the poison on the target ticks. OnReflect: every time the caster's mirror bounces a spell.")]
+    [SerializeField] private MixTiming _timing = MixTiming.Once;
+    [Tooltip("Who the rider affects. Auto: the enemy, or the caster for spells that only affect the caster (heal, shield...).")]
+    [SerializeField] private MixTarget _target = MixTarget.Auto;
+    [Tooltip("The rider's amount is the damage the body just did (heal that much, shield that much, cleanse that many statuses...).")]
+    [SerializeField] private bool _byDamage;
+    [Tooltip("With EveryHit, statuses build up instead of just being refreshed (every hit adds a turn of fear, burn, freeze, wet).")]
+    [SerializeField] private bool _stack;
+    [Tooltip("The status the rider applies never wears off during the room.")]
+    [SerializeField] private bool _permanent;
+    [Tooltip("The rider lands before the body (shatter first, then burn).")]
+    [SerializeField] private bool _riderFirst;
+    [Tooltip("The rider only lands if the body did something (a jackpot, poison that was actually applied).")]
+    [SerializeField] private bool _onlyIfBodyHit;
+    [Tooltip("The rider is only a visual: its animation colours but it does nothing.")]
+    [SerializeField] private bool _riderVisualOnly;
+    [Tooltip("The body is only a visual: only the rider's effect happens (rainbow + fear = permanent fear).")]
+    [SerializeField] private bool _bodyVisualOnly;
+    [Tooltip("The spell is cast twice, with AGAIN! on the screen between the two (mirror rider).")]
+    [SerializeField] private bool _again;
+    [Tooltip("The body does no damage: its animation plays and the rider reaches everyone in the arena (explosion + heal).")]
+    [SerializeField] private bool _area;
+    [Tooltip("The rider destroys the enemy's shield before the body lands.")]
+    [SerializeField] private bool _pierceShield;
+    [Tooltip("Salt and poop do not close the scars (cut + salt).")]
+    [SerializeField] private bool _keepScars;
+    [Tooltip("The caster takes no damage from meteors in this mix.")]
+    [SerializeField] private bool _noSelfDamage;
+    [Tooltip("After the cast, the next spell with the rider's element is twice as strong.")]
+    [SerializeField] private bool _arenaBuff;
+    [Tooltip("Blood pact: the permanent perk this sacrifice mix grants for the rest of the run (only for mixes with Sacrifice).")]
+    [SerializeField] private BloodPerk _pact;
+    [TextArea]
+    [Tooltip("What this mix is meant to do, in words. Mixes marked (todo) need more than the rules above can do.")]
+    [SerializeField] private string _design;
+
     internal SpellEffect Body => _body;
     internal SpellEffect Rider => _rider;
     internal string Name => string.IsNullOrEmpty(_name) ? "Mix" : _name;
-    internal Color Tint => _tint;
-    internal bool Rainbow => _rainbow;
-    internal bool RiderEveryHit => _riderEveryHit;
     internal bool PlayRiderSound => _playRiderSound;
+
+    internal Color ShadeColor
+    {
+        get
+        {
+            if (_body is RainbowEffect && _rider != null) return _rider.SignatureColor;
+            return _body != null ? _body.SignatureColor : _tint;
+        }
+    }
+
+    internal bool Shades => _shades;
+
+    internal Color Tint
+    {
+        get
+        {
+            if (_shades) return ShadeColor;
+            return _useRiderColor && _rider != null ? _rider.SignatureColor : _tint;
+        }
+    }
+
+    internal bool Rainbow
+    {
+        get
+        {
+            if (_shades) return false;
+            return _rainbow || (_useRiderColor && _rider is RainbowEffect);
+        }
+    }
+
+    internal MixTiming Timing => _riderEveryHit && _timing == MixTiming.Once ? MixTiming.EveryHit : _timing;
+    internal MixTarget Target => _target;
+    internal bool ByDamage => _byDamage;
+    internal bool Stack => _stack;
+    internal bool Permanent => _permanent;
+    internal bool RiderFirst => _riderFirst;
+    internal bool OnlyIfBodyHit => _onlyIfBodyHit;
+    internal bool RiderVisualOnly => _riderVisualOnly;
+    internal bool BodyVisualOnly => _bodyVisualOnly;
+    internal bool Again => _again;
+    internal bool Area => _area;
+    internal bool PierceShield => _pierceShield;
+    internal bool KeepScars => _keepScars;
+    internal bool NoSelfDamage => _noSelfDamage;
+    internal bool ArenaBuff => _arenaBuff;
+    internal string Design => _design;
+    internal BloodPerk Pact => _pact;
+    internal bool IsBlood => _rider is SacrificeEffect;
 }
 
 [CreateAssetMenu(menuName = "SpellTypos/Spell Book")]

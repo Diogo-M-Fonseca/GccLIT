@@ -13,7 +13,7 @@ internal sealed class SlotMachineEffect : SpellEffect
 
     internal override int[] Prepare()
     {
-        _jackpot = Random.value < _jackpotChance;
+        _jackpot = Random.value < _jackpotChance || BloodPacts.Active(BloodPerk.SureJackpot);
         _reels = new int[3];
 
         if (_jackpot)

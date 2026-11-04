@@ -17,3 +17,4 @@ MonoBehaviour:
     another spell ("familiar fire") and the pet also casts that spell on the enemy
     once every turn: fire burns, ice freezes, water soaks, poison, fear, rainbow
     gives everything. Also cast as "pet".'
+  _color: {r: 1, g: 0.9, b: 0.65, a: 1}

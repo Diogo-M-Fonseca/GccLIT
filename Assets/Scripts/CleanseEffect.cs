@@ -7,6 +7,8 @@ internal sealed class CleanseEffect : SpellEffect
 
     internal override bool IgnoresFear => true;
 
+    internal override bool SelfOnly => true;
+
     internal override string Apply(Combatant caster, Combatant target, int power)
     {
         return caster.Cleanse()

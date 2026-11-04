@@ -14,6 +14,10 @@ internal sealed class Combatant : MonoBehaviour
 
     private int _hp;
     private int _shield;
+    private bool _burnPermanent;
+    private bool _wetPermanent;
+    private bool _fearPermanent;
+    private bool _freezePermanent;
     private int _burnTurns;
     private int _burnDamage;
     private int _furCharges;
@@ -33,9 +37,12 @@ internal sealed class Combatant : MonoBehaviour
     private string _familiarNote;
 
     private int _damageMultiplier = 1;
+    private bool _poisonPermanent;
+    private readonly List<Func<int, string>> _poisonHooks = new List<Func<int, string>>();
 
     internal event Action Changed;
     internal event Action FamiliarChanged;
+    internal event Action<Combatant> AttackStarted;
 
     internal string DisplayName => _displayName;
     internal int Hp => _hp;
@@ -63,6 +70,11 @@ internal sealed class Combatant : MonoBehaviour
     internal string FamiliarName => _familiarName;
 
     internal int DamageMultiplier => _damageMultiplier;
+    internal bool Immune { get; set; }
+    internal bool StatusImmune { get; set; }
+    internal bool BloodFamiliar { get; set; }
+    internal Func<int, string> ReflectHook { get; set; }
+    internal int Burden => _hp + _shield + _familiarHp;
     internal int IncomingBoost { get; set; } = 1;
 
     internal Transform VfxPoint => _vfxAnchor != null ? _vfxAnchor : transform;
@@ -133,6 +145,7 @@ internal sealed class Combatant : MonoBehaviour
 
     private void Awake()
     {
+        if (_burnVfx != null && _burnVfx.GetComponent<BurnFlames>() == null) _burnVfx.AddComponent<BurnFlames>();
         ResetFull(_maxHp);
     }
 
@@ -144,6 +157,9 @@ internal sealed class Combatant : MonoBehaviour
         if (!string.IsNullOrEmpty(displayName)) _displayName = displayName;
         _damageMultiplier = 1;
         IncomingBoost = 1;
+        Immune = false;
+        StatusImmune = false;
+        BloodFamiliar = false;
         ClearFamiliar();
         ClearScars();
         ClearStatuses();
@@ -153,18 +169,26 @@ internal sealed class Combatant : MonoBehaviour
     {
         _burnTurns = 0;
         _burnDamage = 0;
+        _burnPermanent = false;
+        _wetPermanent = false;
+        _fearPermanent = false;
+        _freezePermanent = false;
         _furCharges = 0;
         _mirrorCharges = 0;
         _fearTurns = 0;
         _wetTurns = 0;
         _freezeTurns = 0;
         _poisonStacks = 0;
+        _poisonPermanent = false;
+        _poisonHooks.Clear();
+        ReflectHook = null;
         Notify();
     }
 
     internal int TakeDamage(int amount, out bool absorbedByFur)
     {
         absorbedByFur = false;
+        if (Immune) return 0;
         if (_furCharges > 0)
         {
             _furCharges--;
@@ -210,7 +234,7 @@ internal sealed class Combatant : MonoBehaviour
 
     internal void SummonFamiliar(int hp, SpellEffect effect, int power, Color tint, bool rainbow, string name)
     {
-        _familiarMaxHp = Mathf.Max(1, hp);
+        _familiarMaxHp = Mathf.Max(1, hp) * (BloodFamiliar ? 2 : 1);
         _familiarHp = _familiarMaxHp;
         _familiarEffect = effect;
         _familiarPower = power;
@@ -238,6 +262,13 @@ internal sealed class Combatant : MonoBehaviour
         _familiarEffect = null;
         _familiarNote = null;
         FamiliarChanged?.Invoke();
+    }
+
+    // Called by the battle when this combatant starts casting. Views (Animator, lunge...) react to the event.
+    internal void PlayAttack(Combatant target)
+    {
+        if (IsDead) return;
+        AttackStarted?.Invoke(target);
     }
 
     internal void LoseHp(int amount)
@@ -272,6 +303,7 @@ internal sealed class Combatant : MonoBehaviour
 
     internal void ApplyBurn(int turns, int damagePerTurn)
     {
+        if (StatusImmune) return;
         _burnTurns = Mathf.Max(_burnTurns, turns);
         _burnDamage = Mathf.Max(_burnDamage, damagePerTurn * Mathf.Max(1, IncomingBoost));
         Notify();
@@ -285,6 +317,7 @@ internal sealed class Combatant : MonoBehaviour
 
     internal void ApplyPoison(int stacks)
     {
+        if (StatusImmune) return;
         _poisonStacks += Mathf.Max(0, stacks) * Mathf.Max(1, IncomingBoost);
         Notify();
     }
@@ -305,18 +338,21 @@ internal sealed class Combatant : MonoBehaviour
 
     internal void ApplyFear(int turns)
     {
+        if (StatusImmune) return;
         _fearTurns = Mathf.Max(_fearTurns, turns);
         Notify();
     }
 
     internal void ApplyWet(int turns)
     {
+        if (StatusImmune) return;
         _wetTurns = Mathf.Max(_wetTurns, turns);
         Notify();
     }
 
     internal void ApplyFreeze(int turns)
     {
+        if (StatusImmune) return;
         _freezeTurns = Mathf.Max(_freezeTurns, turns);
         Notify();
     }
@@ -324,9 +360,78 @@ internal sealed class Combatant : MonoBehaviour
     internal bool ConsumeFreeze()
     {
         if (_freezeTurns <= 0) return false;
-        _freezeTurns--;
+        if (!_freezePermanent) _freezeTurns--;
         Notify();
         return true;
+    }
+
+    internal void SetPermanent(bool burn, bool wet, bool fear, bool freeze)
+    {
+        if (freeze && _freezeTurns > 0) _freezePermanent = true;
+        if (burn && _burnTurns > 0) _burnPermanent = true;
+        if (wet && _wetTurns > 0) _wetPermanent = true;
+        if (fear && _fearTurns > 0) _fearPermanent = true;
+        Notify();
+    }
+
+    internal void Survive()
+    {
+        if (_hp > 0) return;
+        _hp = 1;
+        Notify();
+    }
+
+    internal void SetPoisonPermanent(bool value)
+    {
+        if (StatusImmune) return;
+        _poisonPermanent = value;
+        Notify();
+    }
+
+    internal void AddPoisonTickHook(Func<int, string> hook)
+    {
+        _poisonHooks.Add(hook);
+    }
+
+    internal int BreakShield()
+    {
+        int broken = _shield;
+        _shield = 0;
+        if (broken > 0) Notify();
+        return broken;
+    }
+
+    internal int CleanseSome(int count)
+    {
+        int removed = 0;
+        if (removed < count && _burnTurns > 0) { _burnTurns = 0; _burnDamage = 0; _burnPermanent = false; removed++; }
+        if (removed < count && _fearTurns > 0) { _fearTurns = 0; _fearPermanent = false; removed++; }
+        if (removed < count && _wetTurns > 0) { _wetTurns = 0; _wetPermanent = false; removed++; }
+        if (removed < count && _freezeTurns > 0) { _freezeTurns = 0; _freezePermanent = false; removed++; }
+        if (removed < count && _poisonStacks > 0) { _poisonStacks = 0; _poisonPermanent = false; removed++; }
+        if (removed > 0) Notify();
+        return removed;
+    }
+
+    internal void HalveMaxHp()
+    {
+        _maxHp = Mathf.Max(1, _maxHp / 2);
+        _hp = Mathf.Min(_hp, _maxHp);
+        Notify();
+    }
+
+    internal void HurtFamiliar(int amount)
+    {
+        if (_familiarHp <= 0) return;
+        int taken = Mathf.Min(_familiarHp, Mathf.Max(0, amount));
+        _familiarHp -= taken;
+        string note = _familiarHp <= 0
+            ? $"{_familiarName} falls protecting {_displayName}!"
+            : $"{_familiarName} takes {taken} ({_familiarHp}/{_familiarMaxHp} HP left).";
+        _familiarNote = _familiarNote == null ? note : $"{_familiarNote} {note}";
+        if (_familiarHp <= 0) _familiarEffect = null;
+        FamiliarChanged?.Invoke();
+        Notify();
     }
 
     internal bool Cleanse()
@@ -354,6 +459,7 @@ internal sealed class Combatant : MonoBehaviour
     internal bool ConsumeFear()
     {
         if (_fearTurns <= 0) return false;
+        if (_fearPermanent) return UnityEngine.Random.value < 0.5f;
         _fearTurns--;
         Notify();
         return true;
@@ -364,17 +470,17 @@ internal sealed class Combatant : MonoBehaviour
         bool changed = false;
         if (_wetTurns > 0)
         {
-            _wetTurns--;
+            if (!_wetPermanent) _wetTurns--;
             changed = true;
         }
 
         string msg = null;
         if (_burnTurns > 0)
         {
-            _burnTurns--;
+            if (!_burnPermanent) _burnTurns--;
             _hp = Mathf.Max(0, _hp - _burnDamage);
             msg = $"{_displayName} burns for {_burnDamage}.";
-            if (_burnTurns == 0) _burnDamage = 0;
+            if (_burnTurns == 0) { _burnDamage = 0; _burnPermanent = false; }
             changed = true;
         }
 
@@ -382,10 +488,17 @@ internal sealed class Combatant : MonoBehaviour
         {
             int damage = _poisonStacks;
             _hp = Mathf.Max(0, _hp - damage);
-            _poisonStacks--;
+            if (!_poisonPermanent) _poisonStacks--;
             string poison = $"{_displayName} suffers {damage} poison damage.";
             msg = msg == null ? poison : $"{msg} {poison}";
             changed = true;
+
+            for (int i = 0; i < _poisonHooks.Count; i++)
+            {
+                string extra = _poisonHooks[i](damage);
+                if (!string.IsNullOrEmpty(extra)) msg = $"{msg} {extra}";
+            }
+            if (_poisonStacks <= 0) _poisonHooks.Clear();
         }
 
         if (changed) Notify();

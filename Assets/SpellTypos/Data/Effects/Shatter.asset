@@ -15,4 +15,5 @@ MonoBehaviour:
   _label: Shatter
   _description: 'Breaks the target like glass: huge damage if it is frozen (and the
     ice is gone), only a few shards otherwise. Pairs with Ice.'
+  _color: {r: 0.7, g: 0.95, b: 1, a: 1}
   _frozenMultiplier: 5

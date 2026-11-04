@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FearEffect
   _label: Fear
   _description: The target shakes and misses its attacks (power = attacks missed).
+  _color: {r: 0.6, g: 0.25, b: 0.85, a: 1}

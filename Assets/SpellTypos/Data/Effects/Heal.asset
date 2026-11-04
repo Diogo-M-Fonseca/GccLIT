@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealEffect
   _label: Heal
   _description: Restores the caster's HP.
+  _color: {r: 0.35, g: 1, b: 0.5, a: 1}

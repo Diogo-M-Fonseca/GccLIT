@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShieldEffect
   _label: Shield
   _description: Absorbs damage before HP is lost.
+  _color: {r: 0.6, g: 0.72, b: 0.95, a: 1}

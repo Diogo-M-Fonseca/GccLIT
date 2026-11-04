@@ -15,6 +15,7 @@ MonoBehaviour:
   _label: Rainbow
   _description: 'Shoots a rainbow that gives the target every harmful status at once:
     burn (power = damage per turn), fear, wet and freeze. Also cast as "gay".'
+  _color: {r: 1, g: 1, b: 1, a: 1}
   _burnTurns: 3
   _fearTurns: 2
   _wetTurns: 4

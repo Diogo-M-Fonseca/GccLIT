@@ -20,6 +20,7 @@ internal sealed class SpellTyposSetupWindow : EditorWindow
     [SerializeField] private string _sceneName = "Battle";
 
     [SerializeField] private CombatantSpec _spec = CombatantSpec.NewPlayer();
+    [SerializeField] private AnimationSpec _anim = new AnimationSpec();
 
     [SerializeField] private string _newWord = "";
     [SerializeField] private SpellEffect _newEffect;
@@ -52,6 +53,7 @@ internal sealed class SpellTyposSetupWindow : EditorWindow
         _effectPanel = new DraftPanel(typeof(SpellEffect), SpellTyposBuilder.EffectsFolder);
         _filterPanel = new DraftPanel(typeof(LanguageFilter), SpellTyposBuilder.FiltersFolder);
         if (_spec == null) _spec = CombatantSpec.NewPlayer();
+        if (_anim == null) _anim = new AnimationSpec();
     }
 
     private void OnDisable()
@@ -192,6 +194,8 @@ internal sealed class SpellTyposSetupWindow : EditorWindow
         _spec.BurnVfx = EditorGUILayout.Toggle("Burn overlay", _spec.BurnVfx);
         _spec.FurBallVfx = EditorGUILayout.Toggle("Fur ball overlay", _spec.FurBallVfx);
 
+        DrawAnimation();
+
         if (GUILayout.Button("Create / overwrite prefab", GUILayout.Height(28)))
         {
             string path = SpellTyposBuilder.CombatantPath(_spec);
@@ -200,9 +204,12 @@ internal sealed class SpellTyposSetupWindow : EditorWindow
                     $"{path} already exists. Rebuild it from these settings?", "Overwrite", "Cancel"))
                 return;
 
+            if (_spec.Portrait == null) _spec.Portrait = SpellTyposAnimationSetup.DefaultPortrait(_spec.Kind, _anim);
+
             GameObject prefab = SpellTyposBuilder.CreateCombatantPrefab(_spec);
             if (prefab != null)
             {
+                SpellTyposAnimationSetup.Apply(prefab, _spec.Kind, _anim);
                 if (_spec.Kind == CombatantKind.Player) _playerPrefab = prefab;
                 else _enemyPrefab = prefab;
                 EditorGUIUtility.PingObject(prefab);
@@ -227,6 +234,31 @@ internal sealed class SpellTyposSetupWindow : EditorWindow
                 if (GUILayout.Button("As enemy", GUILayout.Width(70f))) _enemyPrefab = prefab;
             }
         }
+    }
+
+    private void DrawAnimation()
+    {
+        EditorGUILayout.Space(8f);
+        Header("Animation");
+
+        var so = new SerializedObject(this);
+        SpellTyposAnimationSetup.Draw(so.FindProperty("_anim"), _spec.Kind);
+        so.ApplyModifiedProperties();
+
+        bool player = _spec.Kind == CombatantKind.Player;
+        GameObject target = player ? _playerPrefab : _enemyPrefab;
+        string label = target == null
+            ? $"Apply animation to an existing {(player ? "player" : "enemy")} prefab (pick it in the Setup tab)"
+            : $"Apply animation to {target.name}";
+
+        using (new EditorGUI.DisabledScope(target == null))
+        {
+            if (GUILayout.Button(label, GUILayout.Height(24f)))
+                SpellTyposAnimationSetup.Apply(target, _spec.Kind, _anim);
+        }
+
+        EditorGUILayout.LabelField("\"Create / overwrite prefab\" below also applies it to the new prefab.", EditorStyles.miniLabel);
+        EditorGUILayout.Space(8f);
     }
 
     // ----------------------------------------------------------------- spells
@@ -511,6 +543,16 @@ internal sealed class SpellTyposSetupWindow : EditorWindow
             ShowNotification(new GUIContent(added == 0 ? "No new mixes to add" : $"Added {added} mixes"));
             _bookSo = null;
         }
+
+        if (GUILayout.Button("Update all mix rules from the table (overwrites changes to existing mixes)"))
+        {
+            var result = SpellTyposBuilder.UpdateMixRules(_book);
+            ShowNotification(new GUIContent($"Added {result.Added}, updated {result.Updated} mixes"));
+            _bookSo = null;
+        }
+
+        EditorGUILayout.HelpBox("Each mix has rules: when the rider lands (once, every hit, last hit, every poison tick, every mirror bounce), who it hits, whether it follows the damage dealt, stacks, is permanent, plays AGAIN!, and more. " +
+            "Mixes with Sacrifice are blood pacts: the player offers half of their max life, the familiar or two random spells, and gets a permanent perk for the run.", MessageType.Info);
 
         if (_bookSo == null || _bookSo.targetObject != _book) _bookSo = new SerializedObject(_book);
         _bookSo.Update();

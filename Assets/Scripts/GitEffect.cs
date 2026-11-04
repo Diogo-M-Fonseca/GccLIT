@@ -13,7 +13,7 @@ internal sealed class GitEffect : SpellEffect
 
     internal override int[] Prepare()
     {
-        string text = System.Convert.ToString(Mathf.Max(1, _number), 2);
+        string text = System.Convert.ToString(Number, 2);
         var bits = new int[text.Length];
         _streaks = new int[CountOnes()];
         _next = 0;
@@ -44,13 +44,15 @@ internal sealed class GitEffect : SpellEffect
         return $"A 1 hits {target.DisplayName} ({lost} HP lost).";
     }
 
+    private long Number => BloodPacts.Active(BloodPerk.LongGit) ? 171004042026L : Mathf.Max(1, _number);
+
     private int CountOnes()
     {
-        int n = Mathf.Max(1, _number);
+        long n = Number;
         int ones = 0;
         while (n > 0)
         {
-            ones += n & 1;
+            ones += (int)(n & 1);
             n >>= 1;
         }
         return ones;

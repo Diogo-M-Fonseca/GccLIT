@@ -12,12 +12,17 @@ internal sealed class MeteorShowerEffect : SpellEffect
 
     internal override string Apply(Combatant caster, Combatant target, int power)
     {
-        int casterLost = caster.TakeDamage(power, out bool casterAbsorbed);
+        bool spare = MixedEffect.NoSelfDamage || BloodPacts.Active(BloodPerk.SpareSelf);
+        int casterLost = 0;
+        bool casterAbsorbed = false;
+        if (!spare) casterLost = caster.TakeDamage(power, out casterAbsorbed);
         int targetLost = target.TakeDamage(power, out bool targetAbsorbed);
 
-        string casterPart = casterAbsorbed
-            ? $"{caster.DisplayName}'s fur ball swallows a meteor"
-            : $"{caster.DisplayName} loses {casterLost} HP";
+        string casterPart = spare
+            ? $"{caster.DisplayName} is spared"
+            : casterAbsorbed
+                ? $"{caster.DisplayName}'s fur ball swallows a meteor"
+                : $"{caster.DisplayName} loses {casterLost} HP";
         string targetPart = targetAbsorbed
             ? $"{target.DisplayName}'s fur ball swallows a meteor"
             : $"{target.DisplayName} loses {targetLost} HP";

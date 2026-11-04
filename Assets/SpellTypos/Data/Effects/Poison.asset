@@ -16,3 +16,4 @@ MonoBehaviour:
   _description: Poisons the target (power = stacks). Every turn it loses HP equal
     to its stacks, ignoring shield and fur ball, then one stack wears off. Stacks
     add up.
+  _color: {r: 0.55, g: 0.9, b: 0.2, a: 1}

@@ -15,4 +15,5 @@ MonoBehaviour:
   _label: Git
   _description: 'Hurls the binary code of 1710 (11010101110) at the enemy: every
     1 hits for the spell''s power, every 0 misses.'
+  _color: {r: 0.2, g: 1, b: 0.45, a: 1}
   _number: 1710

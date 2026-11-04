@@ -15,3 +15,4 @@ MonoBehaviour:
   _label: Salt
   _description: Salt pours into every scar on the target (power = damage per scar),
     then the scars close. Pairs with Cut.
+  _color: {r: 0.92, g: 0.92, b: 0.98, a: 1}

@@ -15,4 +15,5 @@ MonoBehaviour:
   _label: Cut
   _description: One slash for every "cut" typed in the same line (cut cut cut). Power
     = damage per slash, and every slash leaves a scar on the target.
+  _color: {r: 0.9, g: 0.25, b: 0.3, a: 1}
   _maxHits: 20

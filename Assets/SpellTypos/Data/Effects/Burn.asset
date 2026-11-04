@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BurnEffect
   _label: Burn
   _description: Damage every turn for a few turns (power = damage per turn).
+  _color: {r: 1, g: 0.5, b: 0.1, a: 1}
   _turns: 3
